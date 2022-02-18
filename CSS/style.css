@@ -1,0 +1,18 @@
+body
+{
+    background-color: blue;
+    font-family: "American Typewriter";
+    font-
+}
+header
+{
+    background-color: coral;
+    border-style: dashed;
+}
+input
+{
+    text-align: inherit;
+    background-color: brown;
+    height: 200px;
+    width: 400px;
+}
