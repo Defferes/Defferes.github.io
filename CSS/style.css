@@ -1,18 +1,41 @@
-body
-{
-    background-color: blue;
-    font-family: "American Typewriter";
-    font-
+
+.Menu li {
+    display: inline-block;
+    margin: 10px;
+
 }
-header
-{
-    background-color: coral;
-    border-style: dashed;
+.Menu{
+    font-style: italic;
+    color: white;
+    position: sticky;
+    background-color: black;
+    padding-top: 20px;
+    height: 400px;
 }
-input
+A{
+    color: white;
+    text-decoration: none;
+}
+.MenuPosition {
+    padding-left: 60%;
+}
+.Display
 {
-    text-align: inherit;
-    background-color: brown;
-    height: 200px;
-    width: 400px;
+    display: flex;
+}
+header{
+    font-size: 40px;
+    text-align: center;
+}
+.WhiteMem{
+    text-align: center;
+    display: flex;
+    font-style: italic;
+    color: black;
+    position: sticky;
+    background-color: white;
+    padding-top: 20px;
+    height: 400px;
+}
+.MemLogo{
 }
