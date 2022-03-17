@@ -3,70 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <title>Контакты</title>
+    <link rel="stylesheet" href="../CSS/Contactsstyle.css">
     <script src="https://kit.fontawesome.com/8eadafa913.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<nav>
-    <menu>
-        <li>
-            <a href="../index.html"> <img src="../Image/logo.jpeg" alt="Logo" height="150" width="180"></a>
-        </li>
-        <li><a href="about.html"> О себе </a> </li>
-        <li><a href="summary.html"> Резюме </a> </li>
-        <li><a href="Portfolio.html"> Портфолио </a> </li>
-        <li><a href="сompetencies.html"> Компетенции </a> </li>
-        <li><a href="contacts.html"> Контакты </a> </li>
+<nav class="Menu">
+    <menu class ="Display">
+        <a class="Logo" href="../index.html"> <img src="../Image/logo.png" alt="Logo" height="80" width="80"></a>
+        <div class="MenuPosition">
+            <li><a href="../HTML/about.html"> О себе </a> </li>
+            <li><a href="../HTML/summary.html"> Резюме </a> </li>
+            <li><a href="../HTML/Portfolio.html"> Портфолио </a> </li>
+            <li><a href="../HTML/сompetencies.html"> Компетенции </a> </li>
+            <li><a href="../HTML/contacts.html"> Контакты </a> </li>
+        </div>
     </menu>
+    <header>
+        <h1>Веб - технологии</h1>
+        <h6>Университет "Дубна"</h6>
+    </header>
 </nav>
 
-<header>
-    <h1>Honda - Civic</h1>
-</header>
-
 <main>
-   <h2>Университет "Дубна"</h2>
-    <form>
-        <h3>Есть вопросы?</h3>
-        <div>
-            <label> Как вам удобно получить ответ: </label>
-            <br>
-            <input type="radio" name="email"> по почте <br>
-            <input type="radio" name="email"> по телефону <br>
-            <input type="radio" name="email"> не нужно отвечать <br>
-        </div>
-        <div>
-            <label>Тема вопроса</label> <br>
-            <select>
-                <option> Работа</option>
-                <option> Забота</option>
-                <option> Тормозной тросик</option>
-            </select>
-        </div>
-        <div>
-            <label> И еще один вопрос</label> <br>
-            <input type="checkbox"> Туц <br>
-            <input type="checkbox"> Пуц <br>
-        </div>
-        <div>
-            <label> Ваше имя </label>
-            <input type="text" size="20">
-        </div>
-        <div>
-            <label> Адрес почты </label>
-            <input type="email" size="20">
-        </div>
-        <div>
-            <label> Номер телефона </label>
-            <input type="tel" size="20">
-        </div>
-        <div>
-            <label> Ваш вопрос</label> <br>
-            <input type="text">
-        </div>
-        <div>
-            <input type="submit">
-        </div>
-    </form>
+        <form>
+            <h3>Есть вопросы?</h3>
+            <div>
+                <label> Как вам удобно получить ответ: </label>
+                <br>
+                <input type="radio" name="email"> по почте <br>
+                <input type="radio" name="email"> по телефону <br>
+                <input type="radio" name="email"> не нужно отвечать <br>
+            </div>
+            <div>
+                <label>Тема вопроса</label> <br>
+                <select>
+                    <option> Работа</option>
+                    <option> Забота</option>
+                    <option> Тормозной тросик</option>
+                </select>
+            </div>
+            <div>
+                <label> И еще один вопрос</label> <br>
+                <input type="checkbox"> Туц <br>
+                <input type="checkbox"> Пуц <br>
+            </div>
+            <div>
+                <label> Ваше имя </label>
+                <input type="text" size="20">
+            </div>
+            <div>
+                <label> Адрес почты </label>
+                <input type="email" size="20">
+            </div>
+            <div>
+                <label> Номер телефона </label>
+                <input type="tel" size="20">
+            </div>
+            <div>
+                <label> Ваш вопрос</label> <br>
+                <input type="text">
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+        </form>
 
 </main>
 
